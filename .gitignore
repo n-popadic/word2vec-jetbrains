@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python testing / notebooks
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data, datasets and large files (do NOT push dataset files)
+models/
+checkpoints/
+logs/
+*.log
+
+# Common binary/ML model formats
+*.npy
+*.npz
+*.h5
+*.ckpt
+*.pt
+*.pth
+
+# Secrets / env
+.env
+*.pem
+*.key
+
+# Misc
+*.sqlite3
+.cache/
